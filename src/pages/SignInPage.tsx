@@ -97,7 +97,7 @@ const SignInPage: React.FC = () => {
       <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{
       backgroundImage: `url('/lovable-uploads/a317a5ff-c6bb-48e7-9967-36d3ed4e481f.png')`
     }}>
-        <div className="h-full w-full backdrop-blur-sm flex items-center justify-center p-8 bg-[#f38d36]/[0.39]">
+        <div className="h-full w-full backdrop-blur-sm flex items-center justify-center p-8 bg-[#f38d36]/[0.62]">
           <div className="max-w-md text-white text-center">
             <h2 className="text-3xl font-bold mb-4 text-white">Find Your Perfect Companion</h2>
             <p className="text-lg">Join thousands who've found their forever friends through Pawmi</p>
