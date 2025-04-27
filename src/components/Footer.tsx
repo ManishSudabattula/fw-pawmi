@@ -1,19 +1,12 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-
 const Footer: React.FC = () => {
-  return (
-    <footer className="bg-white pt-12 pb-6 border-t">
+  return <footer className="bg-white pt-12 pb-6 border-t">
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
             <Link to="/" className="flex items-center mb-4">
-              <img 
-                src="/lovable-uploads/65c87fbc-19f7-4321-83ab-50f77fbd2649.png" 
-                alt="Pawmi Logo" 
-                className="h-8 w-8 mr-2" 
-              />
+              <img alt="Pawmi Logo" src="/lovable-uploads/2db94f29-c5f0-4f34-801d-3ee081d17f3c.png" className="h-8 w-8 mr-2 object-scale-down" />
               <span className="text-xl font-bold text-pawmi-orange">Pawmi</span>
             </Link>
             <p className="text-gray-600 text-sm">
@@ -71,11 +64,7 @@ const Footer: React.FC = () => {
             <div className="newsletter">
               <h4 className="text-sm font-medium text-gray-900 mb-2">Newsletter</h4>
               <form className="flex">
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="px-3 py-2 border border-gray-300 rounded-l-md w-full focus:outline-none focus:ring-2 focus:ring-pawmi-orange/50 text-sm"
-                />
+                <input type="email" placeholder="Enter your email" className="px-3 py-2 border border-gray-300 rounded-l-md w-full focus:outline-none focus:ring-2 focus:ring-pawmi-orange/50 text-sm" />
                 <button type="submit" className="bg-pawmi-orange text-white px-3 py-2 rounded-r-md hover:bg-pawmi-orange/90">
                   Subscribe
                 </button>
@@ -90,8 +79,6 @@ const Footer: React.FC = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

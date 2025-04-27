@@ -1,14 +1,11 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Heart, Home } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-
 const HomePage: React.FC = () => {
-  return (
-    <div className="min-h-screen flex flex-col">
+  return <div className="min-h-screen flex flex-col">
       <Navbar />
       
       <main>
@@ -30,11 +27,7 @@ const HomePage: React.FC = () => {
                 </Link>
               </div>
               <div className="md:w-1/2">
-                <img 
-                  src="/lovable-uploads/893a89ce-5c34-4be1-8304-884c34f541be.png" 
-                  alt="Dog and cat together" 
-                  className="rounded-2xl shadow-lg w-full h-auto"
-                />
+                <img alt="Dog and cat together" src="/lovable-uploads/5f433367-656e-4c02-ad09-42e20f3b62cf.png" className="rounded-2xl shadow-lg w-full h-auto object-contain" />
               </div>
             </div>
           </div>
@@ -80,11 +73,7 @@ const HomePage: React.FC = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="flex flex-col items-center mb-4">
-                  <img 
-                    src="/lovable-uploads/32bc3869-4ce3-4bff-a7b0-cfea520c54af.png"
-                    alt="Pet success story" 
-                    className="w-24 h-24 rounded-full object-cover mb-4"
-                  />
+                  <img src="/lovable-uploads/32bc3869-4ce3-4bff-a7b0-cfea520c54af.png" alt="Pet success story" className="w-24 h-24 rounded-full object-cover mb-4" />
                   <p className="text-gray-700 italic text-center mb-4">
                     "Finding Max was the best decision of my life. He brings so much joy to our family!"
                   </p>
@@ -97,11 +86,7 @@ const HomePage: React.FC = () => {
               
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="flex flex-col items-center mb-4">
-                  <img 
-                    src="/lovable-uploads/99c01924-5fb7-421f-86ee-eda296008b2d.png"
-                    alt="Pet success story" 
-                    className="w-24 h-24 rounded-full object-cover mb-4"
-                  />
+                  <img src="/lovable-uploads/99c01924-5fb7-421f-86ee-eda296008b2d.png" alt="Pet success story" className="w-24 h-24 rounded-full object-cover mb-4" />
                   <p className="text-gray-700 italic text-center mb-4">
                     "Luna went from a scared stray to the most loving cat. Thank you Pawmi!"
                   </p>
@@ -114,11 +99,7 @@ const HomePage: React.FC = () => {
               
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <div className="flex flex-col items-center mb-4">
-                  <img 
-                    src="/lovable-uploads/baa8ae45-ff06-4d10-bf7b-cbc58ff24bc1.png"
-                    alt="Pet success story" 
-                    className="w-24 h-24 rounded-full object-cover mb-4"
-                  />
+                  <img src="/lovable-uploads/baa8ae45-ff06-4d10-bf7b-cbc58ff24bc1.png" alt="Pet success story" className="w-24 h-24 rounded-full object-cover mb-4" />
                   <p className="text-gray-700 italic text-center mb-4">
                     "The adoption process was so smooth. Now we have our perfect furry friend!"
                   </p>
@@ -142,8 +123,6 @@ const HomePage: React.FC = () => {
       </main>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default HomePage;
