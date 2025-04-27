@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -140,10 +141,10 @@ const SignInPage: React.FC = () => {
       <div 
         className="hidden md:block md:w-1/2 bg-cover bg-center" 
         style={{ 
-          backgroundImage: `url('/lovable-uploads/f538f95b-5e19-48d5-b015-f091940d2386.png')` 
+          backgroundImage: `url('/lovable-uploads/a317a5ff-c6bb-48e7-9967-36d3ed4e481f.png')` 
         }}
       >
-        <div className="h-full w-full bg-pawmi-orange/10 backdrop-blur-none flex items-center justify-center p-8">
+        <div className="h-full w-full bg-pawmi-orange/20 backdrop-blur-sm flex items-center justify-center p-8">
           <div className="max-w-md text-white text-center">
             <h2 className="text-3xl font-bold mb-4">Find Your Perfect Companion</h2>
             <p className="text-lg">Join thousands who've found their forever friends through Pawmi</p>
