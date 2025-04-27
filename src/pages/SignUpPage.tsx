@@ -125,7 +125,7 @@ const SignUpPage: React.FC = () => {
     }}>
         <div className="h-full w-full backdrop-blur-sm flex items-center justify-center p-8 bg-[#f38d36]/[0.39]">
           <div className="max-w-md text-white text-center">
-            <h2 className="text-3xl font-bold mb-4">Find Your Perfect Furry Companion</h2>
+            <h2 className="text-3xl font-bold mb-4">Find Your Perfect Companion</h2>
             <p className="text-lg">Join thousands of pet lovers who've found their forever friends through Pawmi</p>
           </div>
         </div>
