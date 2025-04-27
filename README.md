@@ -1,3 +1,4 @@
+
 # Pawmi - Pet Adoption Platform
 
 ## Overview
@@ -47,24 +48,6 @@ npm install
 npm run dev
 ```
 
-## Deployment
-
-To deploy to GitHub Pages:
-
-1. Update the `vite.config.ts` file:
-   - Make sure the `base` property is set to your repository name (e.g., '/pawmi/')
-
-2. Update the repository information in `deploy.sh`:
-   - Replace `<USERNAME>` with your GitHub username
-
-3. Make the deploy script executable and run it:
-   ```bash
-   chmod +x deploy.sh
-   ./deploy.sh
-   ```
-
-4. The website will be available at: `https://<USERNAME>.github.io/pawmi`
-
 ## Project Structure
 
 ```
@@ -101,3 +84,4 @@ For questions or support, please reach out to our team at [support@pawmi.com](ma
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details
+
