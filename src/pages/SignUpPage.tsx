@@ -123,7 +123,7 @@ const SignUpPage: React.FC = () => {
       <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{
       backgroundImage: `url('/lovable-uploads/3ef3b678-8c04-422b-8c60-247504a2b38b.png')`
     }}>
-        <div className="h-full w-full backdrop-blur-sm flex items-center justify-center p-8 bg-[#f38d36]/[0.39]">
+        <div className="h-full w-full backdrop-blur-sm flex items-center justify-center p-8 bg-[#f38d36]/[0.62]">
           <div className="max-w-md text-white text-center">
             <h2 className="text-3xl font-bold mb-4">Find Your Perfect Companion</h2>
             <p className="text-lg">Join thousands of pet lovers who've found their forever friends through Pawmi</p>
