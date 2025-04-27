@@ -1,4 +1,3 @@
-
 export interface Pet {
   id: string;
   name: string;
@@ -33,11 +32,11 @@ export const pets: Pet[] = [
     description: 'Friendly and energetic Golden Retriever, loves playing fetch and cuddles.',
     healthStatus: ['Healthy', 'Vaccinated'],
     behavior: ['Friendly', 'Energetic', 'Good with kids'],
-    image: '/lovable-uploads/1b8c2fb2-356d-4c6b-9ebf-24e90126bbfb.png',
+    image: '/lovable-uploads/32bc3869-4ce3-4bff-a7b0-cfea520c54af.png',
     galleryImages: [
-      '/lovable-uploads/1b8c2fb2-356d-4c6b-9ebf-24e90126bbfb.png',
-      '/lovable-uploads/53d0b19c-f43d-447c-afb4-97e8263bedaf.png',
-      '/lovable-uploads/5f433367-656e-4c02-ad09-42e20f3b62cf.png'
+      '/lovable-uploads/32bc3869-4ce3-4bff-a7b0-cfea520c54af.png',
+      '/lovable-uploads/789366d5-284a-411f-9e52-0fa8bfb0e0f2.png',
+      '/lovable-uploads/99c01924-5fb7-421f-86ee-eda296008b2d.png'
     ],
     foundDate: '2025-01-15',
     postedBy: 'Central Park Animal Shelter',
@@ -56,7 +55,7 @@ export const pets: Pet[] = [
     description: 'Gentle senior cat looking for a quiet home. Very affectionate.',
     healthStatus: ['Healthy', 'Vaccinated', 'Neutered'],
     behavior: ['Calm', 'Friendly'],
-    image: '/lovable-uploads/65c87fbc-19f7-4321-83ab-50f77fbd2649.png',
+    image: '/lovable-uploads/baa8ae45-ff06-4d10-bf7b-cbc58ff24bc1.png',
     foundDate: '2025-01-10',
     postedBy: 'LA Pet Rescue',
     postedDate: '2025-01-10',
@@ -74,7 +73,7 @@ export const pets: Pet[] = [
     description: 'Playful Husky puppy, great with kids and other dogs.',
     healthStatus: ['Healthy', 'Vaccinated'],
     behavior: ['Energetic', 'Friendly', 'Good with kids', 'Good with pets'],
-    image: '/lovable-uploads/2db94f29-c5f0-4f34-801d-3ee081d17f3c.png',
+    image: '/lovable-uploads/6a50c8f8-3e88-446f-a330-4752496d4f90.png',
     foundDate: '2025-01-05',
     postedBy: 'Seattle Animal Shelter',
     postedDate: '2025-01-05',
