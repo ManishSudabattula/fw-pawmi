@@ -1,73 +1,87 @@
-# Welcome to your Lovable project
 
-## Project info
+# Pawmi - Pet Adoption Platform
 
-**URL**: https://lovable.dev/projects/761e6c22-054d-443b-901c-58ac7589e337
+## Overview
 
-## How can I edit this code?
+Pawmi is a web-based platform dedicated to connecting stray animals with loving homes. Our mission is to make pet adoption simple, transparent, and rewarding for both the animals and their future families.
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+- **Browse Pets**: Explore a diverse collection of dogs and cats available for adoption
+- **Pet Listings**: View detailed information about each pet, including:
+  - Health status
+  - Behavior traits
+  - Location
+  - Background story
+- **User Accounts**: 
+  - Create and manage your profile
+  - Save favorite pets
+  - Track adoption applications
+- **Pet Management**:
+  - Add new pets for adoption
+  - Update pet status
+  - Track adoption progress
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/761e6c22-054d-443b-901c-58ac7589e337) and start prompting.
+## Technical Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React 18
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
+- Vite
+- React Router for navigation
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository
+```bash
+git clone <repository-url>
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies
+```bash
+npm install
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```
+src/
+├── components/        # Reusable UI components
+├── pages/            # Page components
+├── constants/        # Constants and static data
+├── data/            # Mock data and types
+├── hooks/           # Custom React hooks
+└── lib/             # Utility functions
+```
 
-**Use GitHub Codespaces**
+## Key Pages
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Home**: Landing page with featured pets and platform overview
+- **Browse**: Search and filter available pets
+- **Pet Details**: Comprehensive information about each pet
+- **My Listings**: Manage listed pets (for shelters/rescuers)
+- **Profile**: User account management
+- **Adoption Process**: Step-by-step guide for adopting
 
-## What technologies are used for this project?
+## Contributing
 
-This project is built with:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Support
 
-## How can I deploy this project?
+For questions or support, please reach out to our team at [support@pawmi.com](mailto:support@pawmi.com)
 
-Simply open [Lovable](https://lovable.dev/projects/761e6c22-054d-443b-901c-58ac7589e337) and click on Share -> Publish.
+## License
 
-## Can I connect a custom domain to my Lovable project?
+This project is licensed under the MIT License - see the LICENSE file for details
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
