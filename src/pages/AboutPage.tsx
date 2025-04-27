@@ -1,11 +1,8 @@
-
 import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
-
 const AboutPage: React.FC = () => {
-  return (
-    <div className="min-h-screen flex flex-col">
+  return <div className="min-h-screen flex flex-col">
       <Navbar />
       
       <main className="flex-grow">
@@ -34,11 +31,7 @@ const AboutPage: React.FC = () => {
                 </p>
               </div>
               <div className="rounded-xl overflow-hidden shadow-md">
-                <img 
-                  src="/lovable-uploads/893a89ce-5c34-4be1-8304-884c34f541be.png" 
-                  alt="Dog and cat together" 
-                  className="w-full h-auto"
-                />
+                <img alt="Dog and cat together" src="/lovable-uploads/789366d5-284a-411f-9e52-0fa8bfb0e0f2.png" className="w-full h-auto object-scale-down" />
               </div>
             </div>
           </div>
@@ -97,16 +90,10 @@ const AboutPage: React.FC = () => {
                 Together, we can ensure every pet finds the loving home they deserve.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a 
-                  href="/browse" 
-                  className="bg-pawmi-orange hover:bg-pawmi-orange/90 text-white px-6 py-3 rounded-md font-medium"
-                >
+                <a href="/browse" className="bg-pawmi-orange hover:bg-pawmi-orange/90 text-white px-6 py-3 rounded-md font-medium">
                   Find a Pet
                 </a>
-                <a 
-                  href="/contact" 
-                  className="border border-pawmi-orange text-pawmi-orange hover:bg-pawmi-orange/10 px-6 py-3 rounded-md font-medium"
-                >
+                <a href="/contact" className="border border-pawmi-orange text-pawmi-orange hover:bg-pawmi-orange/10 px-6 py-3 rounded-md font-medium">
                   Get Involved
                 </a>
               </div>
@@ -116,8 +103,6 @@ const AboutPage: React.FC = () => {
       </main>
       
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default AboutPage;
