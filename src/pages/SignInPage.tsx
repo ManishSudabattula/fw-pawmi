@@ -35,7 +35,7 @@ const SignInPage: React.FC = () => {
         <div className="w-full max-w-md">
           <div className="mb-8 text-center">
             <Link to="/" className="inline-flex items-center mb-8">
-              <img src="/lovable-uploads/65c87fbc-19f7-4321-83ab-50f77fbd2649.png" alt="Pawmi Logo" className="h-10 w-10 mr-2" />
+              <img alt="Pawmi Logo" src="/lovable-uploads/6a50c8f8-3e88-446f-a330-4752496d4f90.png" className="h-10 w-10 mr-2 object-scale-down" />
               <span className="text-2xl font-bold text-pawmi-orange">Pawmi</span>
             </Link>
             <h1 className="text-2xl font-bold">Welcome back to Pawmi!</h1>
