@@ -138,7 +138,12 @@ const SignInPage: React.FC = () => {
       </div>
       
       {/* Right side - Image */}
-      <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ backgroundImage: `url('/lovable-uploads/893a89ce-5c34-4be1-8304-884c34f541be.png')` }}>
+      <div 
+        className="hidden md:block md:w-1/2 bg-cover bg-center" 
+        style={{ 
+          backgroundImage: `url('/lovable-uploads/f538f95b-5e19-48d5-b015-f091940d2386.png')` 
+        }}
+      >
         <div className="h-full w-full bg-pawmi-orange/20 backdrop-blur-sm flex items-center justify-center p-8">
           <div className="max-w-md text-white text-center">
             <h2 className="text-3xl font-bold mb-4">Find Your Perfect Companion</h2>
