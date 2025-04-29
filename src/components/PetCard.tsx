@@ -38,14 +38,21 @@ const PetCard: React.FC<PetCardProps> = ({
     }
   };
 
+  // Remove the leading slash if it exists to fix relative path issues
+  const imageUrl = image && image.startsWith('/') ? image.substring(1) : image;
+
   return (
     <div className="pet-card">
       <div className="relative">
         <Link to={`/pets/${id}`}>
           <img 
-            src={image} 
+            src={imageUrl} 
             alt={`${name} - Pet for adoption`} 
             className="w-full h-64 object-cover"
+            onError={(e) => {
+              console.error(`Image failed to load: ${imageUrl}`);
+              e.currentTarget.src = "placeholder.svg"; // Fallback to placeholder
+            }}
           />
         </Link>
         <button 
