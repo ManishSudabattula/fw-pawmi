@@ -38,8 +38,8 @@ const PetCard: React.FC<PetCardProps> = ({
     }
   };
 
-  // Remove the leading slash if it exists to fix relative path issues
-  const imageUrl = image && image.startsWith('/') ? image.substring(1) : image;
+  // Use image URL as is - no need to remove slash for external URLs
+  const imageUrl = image;
 
   return (
     <div className="pet-card">
@@ -48,7 +48,7 @@ const PetCard: React.FC<PetCardProps> = ({
           <img 
             src={imageUrl} 
             alt={`${name} - Pet for adoption`} 
-            className="w-full h-64 object-cover"
+            className="w-full h-64 object-cover rounded-t-lg"
             onError={(e) => {
               console.error(`Image failed to load: ${imageUrl}`);
               e.currentTarget.src = "placeholder.svg"; // Fallback to placeholder
